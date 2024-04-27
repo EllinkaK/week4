@@ -1,0 +1,53 @@
+header {
+    background-image: url(assets/images/rectangle1441.png);
+        position: absolute;
+        width: 1440px;
+        height: 1084px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 4538px;
+        
+}
+
+h1 {
+    position: absolute;
+        width: 737px;
+        height: 108px;
+        left: 352px;
+        right: 301px;
+        top: 161px;
+        bottom: 5253px;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 130%;
+
+        text-align: center;
+        text-transform: capitalize;
+}
+#subtitle {
+    position: absolute;
+        width: 606px;
+        height: 77px;
+        left: 418px;
+        right: 316px;
+        top: 383px;
+        bottom: 5162px;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 160%;
+        text-align: center;
+}
+.test {
+    color: orange;
+}
+a:hover {
+    color: rgb(0, 255, 21);
+}
+a.test:active {
+    color: red;
+}
