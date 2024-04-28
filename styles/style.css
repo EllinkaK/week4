@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
     background-image: url(../assets/images/rectangle1441.png);
         position: absolute;
@@ -9,7 +15,11 @@ header {
         bottom: 4538px;
         
 }
-
+nav {position: absolute;
+    left: 80px;
+    top: 80px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;}
 h1 {
     position: absolute;
         width: 737px;
@@ -19,7 +29,7 @@ h1 {
         top: 161px;
         bottom: 5253px;
         color: rgb(255, 255, 255);
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "Roboto", sans-serif;
         font-size: 60px;
         font-weight: 400;
         line-height: 130%;
@@ -36,18 +46,67 @@ h1 {
         top: 383px;
         bottom: 5162px;
         color: rgb(255, 255, 255);
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "Roboto", sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 160%;
         text-align: center;
 }
+.logo {
+    position: absolute;
+    left: 80px;
+    top: 40px;
+    width: 75px;
+    height: 32px;
+  }
 .test {
     color: orange;
 }
+.trash {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 1326px;
+    right: 80px;
+    top: 41px;
+    bottom: 5547px;
+    background: rgba(0, 0, 0, 0);
+}
+.trash_img1 {
+    position: absolute;
+width: 25.5px;
+height: 28.33px;
+left: 16.67%;
+right: -16.67%;
+top: 9.99%;
+bottom: -9.99%;
+}
+.trash_img2 {
+    position: absolute;
+    width: 20px;
+    height: 25.24px;
+    left: 6730%;
+    right: -6730%;
+    top: 175.04%;
+    bottom: -175.04%;
+    background: rgb(229, 132, 17);
+}
+.trash_img3 {
+    position: absolute;
+width: 7.74px;
+height: 12.53px;
+left: 6760%;
+right: -6698.7%;
+top: 201.39%;
+bottom: -151.01%;
+
+} 
 a:hover {
     color: rgb(0, 255, 21);
 }
 a.test1:active {
     color: red;
+}
+a.test2:visited {
+    color: crimson;
 }
